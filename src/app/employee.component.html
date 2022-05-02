@@ -1,0 +1,13 @@
+<table style="border: 1px solid black;">
+    <tr>
+        <th>Id</th>
+        <th>Employee Name</th>
+        <th>Employee Salary</th>
+    </tr>
+    <tr *ngFor="let d of res.data">
+        <td>{{d.id}}</td>
+        <td>{{d.employee_name}}</td>
+        <td>{{d.employee_salary}}</td>
+    </tr>
+    
+</table>

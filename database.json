@@ -1,0 +1,89 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "name": "Bhargavi"
+    },
+    {
+      "id": 2,
+      "name": "Vidya"
+    },
+    {
+      "id": 3,
+      "name": "Prashanthi"
+    },
+    {
+      "id": 4,
+      "name": "Dileep"
+    },
+    {
+      "id": 5,
+      "name": "Pavan"
+    },
+    {
+      "id": 6,
+      "name": "Ravi"
+    },
+    {
+      "id": 7,
+      "name": "Siddhartha Nayak"
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11,
+      "name": "Das"
+    },
+    {
+      "id": 12,
+      "name": "Mahesh"
+    },
+    {
+      "id": 13,
+      "name": "Chandrika"
+    },
+    {
+      "id": 14,
+      "name": "Roopa"
+    },
+    {
+      "id": 15,
+      "name": "sai"
+    },
+    {
+      "id": 16,
+      "name": "hema"
+    },
+    {
+      "id": 17,
+      "name": "mansha"
+    },
+    {
+      "id": 18,
+      "name": "sowmya"
+    },
+    {
+      "id": 19,
+      "name": "dundi"
+    },
+    {
+      "id": 20,
+      "name": "Haritha"
+    },
+    {
+      "id": 21,
+      "name": "Lasya"
+    },
+    {
+      "id": 22,
+      "name": "Niharika"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<table style="border: 2px solid black;">
+    <tr>
+        <th>ProductId</th>
+        <th>ProductName</th>
+        <th>ProductPrice</th>
+        <th>more</th>
+    </tr>
+    <tr *ngFor="let p of pinfo;let i=index;">
+        <td>{{p.prodid}}</td>
+        <td>{{p.prodname}}</td>
+        <td>{{p.prodprice}}</td>
+        <td><button (click)="edit(p.prodid)">Edit</button><button (click)="delete(p.prodid,i)">Delete</button></td>
+    </tr>
+</table>
+<div style="float: left;">
+prodid:<input type="text" [(ngModel)]="editrec.prodid" disabled><br>
+prodname:<input type="text" [(ngModel)]="editrec.prodname" disabled><br>
+prodprice:<input type="number" [(ngModel)]="editrec.prodprice"><br>
+<button (click)="modify(editrec)">Modify</button>
+<button (click)="clearrec(editrec)">Cancel</button>
+</div>
+<br>
+<div style="margin-top: 100px;">
+ prodid:   <input type="text" id="t1" [(ngModel)]="newrec.prodid"><br>
+  prodname:  <input type="text" id="t1" [(ngModel)]="newrec.prodname"><br>
+   prodprice: <input type="number" id="t1" [(ngModel)]="newrec.prodprice"><br>
+    <button (click)="saveprod()">Save</button>
+</div>

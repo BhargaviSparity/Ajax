@@ -1,0 +1,17 @@
+<table style="width: 500px;border: 2px solid black;">
+    <tr>
+        <th>id</th>
+        <th>title</th>
+        
+        <th>price</th>
+    </tr>
+    <tr *ngFor="let e of res|paginate:{itemsPerPage:5,currentPage:pagenumb}">
+        <td>{{e.id}}</td>
+        <td>{{e.title}}</td>
+       
+        <td>{{e.price}}</td>
+    </tr>
+    <tr>
+        <td colspan="3"><pagination-controls (pageChange)="pagenumb=$event"></pagination-controls></td>
+    </tr>
+</table>
